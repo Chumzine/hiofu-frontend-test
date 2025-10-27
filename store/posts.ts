@@ -27,7 +27,7 @@ export const usePostsStore = create<PostsState>((set, get) => ({
         try {
            const data = await fetchPosts();
            set({ posts: data, loading: false });
-        } catch (err) {
+        } catch {
             set({ error: "Failed to fetch posts", loading: false });
         }
     },
@@ -42,7 +42,8 @@ export const usePostsStore = create<PostsState>((set, get) => ({
         try {
             const newPost = await createPost(post);
             set({ posts: get().posts.map(p => (p.id === optimisticId ? newPost : p)) })
-        } catch (err) {
+        } catch (error) {
+            console.error("Failed to add post:", error);
             set({ posts: previous });
         }
     },
