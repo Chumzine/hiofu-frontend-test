@@ -4,6 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+<br/>
 ![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Zustand](https://img.shields.io/badge/Zustand-Global%20State-orange)
@@ -21,11 +22,10 @@
 A simple CRUD application built with **Next.js (App Router)**, **TypeScript**, **Zustand**, **TailwindCSS**, and **Shadcn UI**.  
 It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com/posts) and demonstrates SSR, client‑side search, pagination, and optimistic updates.
 
-<br />
-    <a href="https://github.com/Chumzine/flask-scissor-shortener"><strong align="center">Explore the docs »</strong></a>
+    <a align="center" href="https://github.com/Chumzine/flask-scissor-shortener"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
-
+<br/>
 
 <!-- TABLE OF CONTENTS -->
 <details>
