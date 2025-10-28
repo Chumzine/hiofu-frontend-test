@@ -22,7 +22,8 @@ A simple CRUD application built with **Next.js (App Router)**, **TypeScript**, *
 It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com/posts) and demonstrates SSR, client‑side search, pagination, and optimistic updates.
 
 <br />
-    <a href="https://github.com/Chumzine/flask-scissor-shortener"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Chumzine/flask-scissor-shortener"><strong align="center">Explore the docs »</strong></a>
+<br/>
 <br/>
 
 
