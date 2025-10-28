@@ -4,11 +4,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-
-
-# HIOFU Frontend Take‑Home Test
-
-
 ![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Zustand](https://img.shields.io/badge/Zustand-Global%20State-orange)
@@ -20,10 +15,16 @@
 
 
 
+# HIOFU Frontend Take‑Home Test
+
+
 A simple CRUD application built with **Next.js (App Router)**, **TypeScript**, **Zustand**, **TailwindCSS**, and **Shadcn UI**.  
 It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com/posts) and demonstrates SSR, client‑side search, pagination, and optimistic updates.
+<br />
+    <a href="https://github.com/Chumzine/flask-scissor-shortener"><strong>Explore the docs »</strong></a>
 
----
+
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -31,10 +32,8 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
     <li>
       <a href="#features">Features</a>
     </li>
-      <ul>
-        <li><a href="#tech-stack">Tech Stack</a></li>
-        <li><a href="#installation-&-running">Installation & Running</a></li>
-      </ul>
+      <li><a href="#tech-stack">Tech Stack</a></li>
+      <li><a href="#installation-&-running">Installation & Running</a></li>
     </li>
     <li>
       <a href="#deployment">Deployment</a></li>
@@ -50,6 +49,7 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
 </details>
 
 
+<!-- FEATURES -->
 ## 🚀 Features
 
 - **Server‑Side Rendering (SSR)**
@@ -67,8 +67,9 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
   - Clear loading, empty, and error states
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
----
 
+
+<!-- TECH STACK -->
 ## 🛠️ Tech Stack
 
 - [Next.js 13+ (App Router)](https://nextjs.org/)
@@ -79,8 +80,9 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
 - [Axios](https://axios-http.com/) for API calls
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
----
 
+
+<!-- INSTALLATION & RUNNING -->
 ## 📦 Installation & Running
 
 Clone the repo and install dependencies:
@@ -93,7 +95,7 @@ cd <your-repo>
 pnpm install   # or npm install / yarn install
 
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -111,6 +113,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- DEPLOYMENT -->
 ## 🌐 Deployment
 Deployed easily with Vercel.
 
@@ -124,6 +128,8 @@ Deployed easily with Vercel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- STATE MANAGEMENT FLOW -->
 ## 🧩 State Management Flow
 1. 	Initial load: SSR fetches posts → passed into Zustand store.
 2. 	Search:  string updates →  derives results.
@@ -136,6 +142,8 @@ Deployed easily with Vercel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- TRADE-OFFS & IMPROVEMENTS -->
 ## ⚖️ Trade‑offs & Improvements
 • 	JSONPlaceholder doesn’t persist changes → CRUD is demo‑only.
 • 	Pagination is client‑side only (API doesn’t support server‑side pagination).
@@ -145,7 +153,9 @@ Deployed easily with Vercel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# 📂 Project Structure
+
+<!-- PROJECT STRUCTURE -->
+## 📂 Project Structure
 app/
   layout.tsx
   page.tsx
@@ -167,6 +177,8 @@ store/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- AUTHOR -->
 ## 👩‍💻 Author
 
 Built by [Adaobi Chuma-Okeke](https://www.linkedin.com/in/adaobi-chuma-okeke-3677a9140/) for the HIOFU Frontend Take‑Home Test.
@@ -175,3 +187,14 @@ Built by [Adaobi Chuma-Okeke](https://www.linkedin.com/in/adaobi-chuma-okeke-367
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Chumzine/hiofu-frontend-test.svg?style=for-the-badge
+[contributors-url]: https://github.com/Chumzine/hiofu-frontend-test/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Chumzine/hiofu-frontend-test.svg?style=for-the-badge
+[forks-url]: https://github.com/Chumzine/hiofu-frontend-test/network/members
+[stars-shield]: https://img.shields.io/github/stars/Chumzine/hiofu-frontend-test.svg?style=for-the-badge
+[stars-url]: https://github.com/Chumzine/hiofu-frontend-test/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Chumzine/hiofu-frontend-test.svg?style=for-the-badge
+[issues-url]: https://github.com/Chumzine/hiofu-frontend-test/issues
