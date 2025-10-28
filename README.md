@@ -16,7 +16,7 @@
 ![Shadcn UI](https://img.shields.io/badge/Shadcn-UI-111827)
 ![Axios](https://img.shields.io/badge/Axios-HTTP%20Client-5A29E4?logo=axios&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=vercel)](https://your-vercel-app-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=vercel)](https://hiofu-frontend-test.vercel.app/)
 
 
 
@@ -24,6 +24,31 @@ A simple CRUD application built with **Next.js (App Router)**, **TypeScript**, *
 It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com/posts) and demonstrates SSR, client‑side search, pagination, and optimistic updates.
 
 ---
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#features">Features</a>
+    </li>
+      <ul>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#installation-&-running">Installation & Running</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#deployment">Deployment</a></li>
+    <li>
+      <a href="#state-management-flow">State Management Flow</a>
+    </li>
+    <li><a href="#trade-offs-&-improvements">Trade-offs & Improvements</a></li>
+    <li>
+      <a href="#project-structure">Project Structure</a>
+    </li>
+      <li><a href="#author">Author</a></li>
+  </ol>
+</details>
+
 
 ## 🚀 Features
 
@@ -41,6 +66,7 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
   - Accessible forms (create/edit)
   - Clear loading, empty, and error states
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## 🛠️ Tech Stack
@@ -52,6 +78,7 @@ It consumes the [JSONPlaceholder Posts API](https://jsonplaceholder.typicode.com
 - [Shadcn UI](https://ui.shadcn.com/)
 - [Axios](https://axios-http.com/) for API calls
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## 📦 Installation & Running
@@ -82,6 +109,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🌐 Deployment
 Deployed easily with Vercel.
@@ -94,6 +122,7 @@ Deployed easily with Vercel.
 • 	CSR (Client‑Side Rendering):
 • 	Search, pagination, and CRUD actions happen in the browser using Zustand state.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🧩 State Management Flow
 1. 	Initial load: SSR fetches posts → passed into Zustand store.
@@ -105,6 +134,7 @@ Deployed easily with Vercel.
 • 	On success → optimistic item replaced with server response.
 • 	On failure → rollback to previous state.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⚖️ Trade‑offs & Improvements
 • 	JSONPlaceholder doesn’t persist changes → CRUD is demo‑only.
@@ -113,6 +143,7 @@ Deployed easily with Vercel.
 • 	With more time:
 • 	Improve accessibility (keyboard navigation, ARIA roles).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # 📂 Project Structure
 app/
@@ -134,7 +165,7 @@ lib/
 store/
   posts.ts
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👩‍💻 Author
 
@@ -142,6 +173,5 @@ Built by [Adaobi Chuma-Okeke](https://www.linkedin.com/in/adaobi-chuma-okeke-367
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/adaobi-chuma-okeke-3677a9140/)
 
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
